@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 
 export default function Home() {
   return (
-    <div className="w-full p-4"> {/* Full width with reasonable padding */}
+    <div className="w-full p-4"> 
     <div
   className="hero min-h-screen"
   style={{

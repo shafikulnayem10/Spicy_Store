@@ -12,7 +12,7 @@ export default function ContactUs() {
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-          {/* Contact Form */}
+         
           <div className="bg-base-200 p-6 rounded-lg shadow-lg">
             <form className="space-y-4">
               <div>
@@ -54,7 +54,7 @@ export default function ContactUs() {
             </form>
           </div>
 
-          {/* Contact Info */}
+         
           <div className="bg-base-200 p-6 rounded-lg shadow-lg">
             <h2 className="text-2xl font-bold mb-4">Our Information</h2>
             <div className="space-y-4">

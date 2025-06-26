@@ -21,7 +21,7 @@ function App() {
         
       </Route>
     </Routes>
-     {/* <Spicies></Spicies> */}
+     
     </>
   )
 }

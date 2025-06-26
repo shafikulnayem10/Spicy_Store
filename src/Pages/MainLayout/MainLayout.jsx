@@ -8,7 +8,7 @@ export default function MainLayout() {
      <div className="min-h-screen flex flex-col bg-base-100">
       <Navbar />
       
-      <main className="flex-grow p-0"> {/* Remove padding here */}
+      <main className="flex-grow p-0"> 
         <Outlet />
       </main>
 
