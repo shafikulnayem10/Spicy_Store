@@ -1,0 +1,72 @@
+[
+  {
+    "id": 1,
+    "name": "Panch Phoron",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQNFyzfg0bjj5pO8KVNPCXZsLKDle9qTtcvZg&s",
+    "price": 120,
+    "description": "A traditional Bengali five-spice blend made of fennel, nigella, cumin, fenugreek, and mustard seeds."
+  },
+  {
+    "id": 2,
+    "name": "Shorshe Gura ",
+    "image": "https://www.agroholicbd.com/uploads/media-manager//2023%2F12%2F1718243380_Mustard%20Cake%20Powder-1732660145.jpg",
+    "price": 80,
+    "description": "Ground mustard seeds used for making tangy mustard pastes and curries, a staple in Bengali fish dishes."
+  },
+  {
+    "id": 3,
+    "name": "Jeera Gura ",
+    "image": "https://onaturalbd.com/wp-content/uploads/2022/02/Cumin-Powder.jpg",
+    "price": 90,
+    "description": "Fragrant ground cumin, essential in Bengali curries and vegetable dishes for earthy depth."
+  },
+  {
+    "id": 4,
+    "name": "Dhone Gura ",
+    "image": "https://veggify.online/cdn/shop/products/Dhone_d3e9e760-36f2-475b-853d-86a547269aa9.jpg?v=1652540171",
+    "price": 85,
+    "description": "Mild and citrusy coriander powder, used widely for both vegetarian and non-veg Bengali recipes."
+  },
+  {
+    "id": 5,
+    "name": "Lanka Gura ",
+    "image": "https://media.istockphoto.com/id/464898007/photo/sticks-and-ground-ceylon-cinnamon.jpg?s=612x612&w=0&k=20&c=Hr6Z3DjsjUq6xL2c9mwSA8KvSDGR0eeHbp4bl5ETpbY=",
+    "price": 95,
+    "description": "Fiery red chili powder to spice up dal, meat, and fried snacks—handle with care!"
+  },
+  {
+    "id": 6,
+    "name": "Gorom Masala",
+    "image": "https://t4.ftcdn.net/jpg/01/86/45/63/360_F_186456306_crFfy6WlvrBmJkqzJCpmDP9CGjSvUAHx.jpg",
+    "price": 130,
+    "description": "A warm, aromatic blend of cardamom, cinnamon, cloves and more—used at the end of cooking for rich flavor."
+  },
+  {
+    "id": 7,
+    "name": "Ada Rosun Bata ",
+    "image": "https://www.heritagebd71.com/wp-content/uploads/2023/01/IMG_5164-min.jpg",
+    "price": 70,
+    "description": "A freshly ground mix of ginger and garlic, used as the base for most Bengali curries."
+  },
+  {
+    "id": 8,
+    "name": "Tejpata ",
+    "image": "https://www.shutterstock.com/image-photo/dried-bay-leaves-laurus-nobilis-260nw-2443139159.jpg",
+    "price": 50,
+    "description": "Dried bay leaves used in tempering rice, lentils, and biryani for a subtle aromatic kick."
+  },
+  {
+    "id": 9,
+    "name": "Chili Flakes",
+    "image": "https://www.shutterstock.com/image-photo/dry-chili-pepper-flakes-crushed-600nw-2274476567.jpg",
+    "price": 60,
+    "description": "Crushed dried chilies used for pickles, stir-fries, or to add heat to snacks."
+  },
+  {
+    "id": 10,
+    "name": "Halud Gura ",
+    "image": "https://shadleens.com/wp-content/uploads/2020/09/Turmeric-Benefits-Uses-and-Side-Effects-in-Bengali.jpg",
+    "price": 75,
+    "description": "Golden yellow turmeric powder, adds color and health benefits to all Bengali meals."
+  }
+]
