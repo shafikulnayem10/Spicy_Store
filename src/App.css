@@ -1,0 +1,11 @@
+@import "tailwindcss";
+@plugin "daisyui";
+#root {
+  max-width: 10000px;
+  width: 10000px;
+  margin: 0px auto;
+  padding: 0rem;
+  border: 2px white;
+  text-align: center;
+  background: burlywood;
+}
