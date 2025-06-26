@@ -9,7 +9,7 @@ const Spicies = () => {
   const [cart, setCart] = useState([]);
   const [sortBy, setSortBy] = useState('default');
 
-  // Load cart from localStorage
+  
   useEffect(() => {
     const storedCart = localStorage.getItem("cart");
     if (storedCart) {
@@ -17,12 +17,12 @@ const Spicies = () => {
     }
   }, []);
 
-  // Save cart to localStorage
+  
   useEffect(() => {
     localStorage.setItem("cart", JSON.stringify(cart));
   }, [cart]);
 
-  // Fetch data
+  
   useEffect(() => {
     async function fetchSpices() {
       try {
@@ -37,7 +37,7 @@ const Spicies = () => {
     fetchSpices();
   }, []);
 
-  // Add/Remove from cart
+  
   const handleCartToggle = (spicy) => {
     const exists = cart.some((item) => item.id === spicy.id);
     if (exists) {
@@ -49,12 +49,12 @@ const Spicies = () => {
     }
   };
 
-  // Filter spices based on search
+  
   const filteredSpices = spices.filter((spice) =>
     spice.name.toLowerCase().includes(searchText.toLowerCase())
   );
 
-  // Sort spices
+  
   const sortedSpices = [...filteredSpices].sort((a, b) => {
     switch (sortBy) {
       case "id-asc":
@@ -70,13 +70,13 @@ const Spicies = () => {
     }
   });
 
-  // Total price
+ 
   const cartTotal = cart.reduce((total, item) => total + parseFloat(item.price), 0);
 
   return (
     <div className="m-7 p-4 bg-blue-500 min-h-screen">
       
-      {/* Search + Sort Controls */}
+      
       <div className="flex items-center gap-4 mb-6">
         <input
           type="text"
@@ -99,13 +99,13 @@ const Spicies = () => {
         </select>
       </div>
 
-      {/* Total Spices */}
+      
       <h3 className="text-3xl bg-amber-800 p-2 rounded text-white">
         Total Spices: {sortedSpices.length}
       </h3>
       <h4 className="text-xl mt-2 text-white">🛒 Cart: {cart.length} item(s)</h4>
 
-      {/* Cart Summary */}
+     
       {cart.length > 0 && (
         <div className="bg-white text-black rounded p-4 mt-4 shadow-md">
           <h2 className="text-2xl font-semibold mb-3">Items in Cart:</h2>
@@ -123,7 +123,7 @@ const Spicies = () => {
         </div>
       )}
 
-      {/* Spice Cards */}
+      
       <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-6">
         {sortedSpices.map((spicy) => (
           <Spicy
@@ -135,7 +135,7 @@ const Spicies = () => {
         ))}
       </div>
 
-      {/* Toasts */}
+    
       <ToastContainer position="top-right" autoClose={1500} hideProgressBar={false} newestOnTop />
     </div>
   );
