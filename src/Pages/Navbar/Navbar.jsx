@@ -6,7 +6,7 @@ export default function Navbar() {
       <div className="flex-1 items-center flex gap-2">
       
         <img
-          src="pp.jpg" 
+          src="/public/pp.jpg" 
           alt="Profile"
           className="w-15 h-15 rounded-full object-cover"
         />
