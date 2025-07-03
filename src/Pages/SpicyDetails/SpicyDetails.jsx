@@ -8,7 +8,7 @@ export default function SpicyDetail() {
   const [loading, setLoading] = useState(true)
 
   useEffect(() => {
-    fetch('/Spicies.json')
+    fetch('/public/Spicies.json')
       .then(res => res.json())
       .then(data => {
         const found = data.find(item => item.id === parseInt(id))

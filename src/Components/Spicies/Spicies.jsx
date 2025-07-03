@@ -26,7 +26,7 @@ const Spicies = () => {
   useEffect(() => {
     async function fetchSpices() {
       try {
-        const response = await fetch("Spicies.json");
+        const response = await fetch("/public/Spicies.json");
         const data = await response.json();
         setSpices(data);
       } catch (error) {
