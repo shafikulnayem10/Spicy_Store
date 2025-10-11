@@ -8,7 +8,7 @@ export default function SpicyDetail() {
   const [loading, setLoading] = useState(true)
 
   useEffect(() => {
-    fetch('/public/Spicies.json')
+    fetch('https://spicy-store-server-1.onrender.com/spices')
       .then(res => res.json())
       .then(data => {
         const found = data.find(item => item.id === parseInt(id))
