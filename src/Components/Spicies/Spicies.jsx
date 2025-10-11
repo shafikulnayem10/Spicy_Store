@@ -26,7 +26,7 @@ const Spicies = () => {
   useEffect(() => {
     async function fetchSpices() {
       try {
-        const response = await fetch("https://spicy-store-server-1.onrender.com/spices");
+        const response = await fetch("/spices");
         const data = await response.json();
         setSpices(data);
       } catch (error) {
