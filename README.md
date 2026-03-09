@@ -12,7 +12,7 @@
 
 ## 🔗 Live Demo
 
-👉 https://lnkd.in/gbnSDqEm
+👉 https://shafikulnayem10.github.io/Spicy_Store/
 
 ## ✨ Features
 
