@@ -12,7 +12,7 @@
 
 ## 🔗 Live Demo
 
-👉 https://our-spicy-store.netlify.app/
+👉 https://shafikulnayem10.github.io/Spicy_Store/
 
 ## ✨ Features
 
