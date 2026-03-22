@@ -44,7 +44,7 @@ This project demonstrates how real-world e-commerce platforms handle **product b
 
 ---
 
-## ⚙️ Tech Stack (With Justification)
+## ⚙️ Tech Stack
 
 | Technology | Why It Was Used |
 |---|---|
